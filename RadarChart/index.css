@@ -1,0 +1,12 @@
+html{
+    background-color: rgb(109, 132, 150);
+    height: 100vh;
+}
+.radar-container{
+    margin: auto;
+    margin-top: auto;
+    width: 500px;
+    height: 500px;
+    background-color:rgb(175, 197, 214) ;
+    border-radius: 10px;
+}

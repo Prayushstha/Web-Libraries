@@ -1,16 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RadarChart</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <div class="radar-container" id="radarContainer">
-        
+      <svg width="500" height="500" viewBox="-100 -100 500 500" style="padding: auto;">
+        <polygon stroke="black" fill="red" 
+          points="0 300, 0 100, 100 -100, 300 100, 300 300, 100 400"
+        />
+      </svg>
     </div>
     <script src="index.js" type="module"></script>
     <script src="radarValues.js" type="module"></script>
-</body>
+  </body>
 </html>
